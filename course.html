@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>University Website Design - Easy tutorials</title>
+     <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@100;200;300;400;600;700&display=swap"
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs
+	.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""></a>
+           <h2>🎓NBKRIST</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+	<h1>Course Course</h1>
+</section>
+<!-----------------course------------->
+<section class="course">
+      <h1>Courses We Offer</h1>
+      <p>We offer a wide range of academic programs designed to build strong foundations, practical skills, and industry-ready knowledge for students at every stage of their education.</p>
+
+      <div class="row">
+         <div class="course-col">
+           <h3>Intermediate</h3>
+           <p>Our Intermediate programs focus on strengthening core subjects like Mathematics, Science, and Commerce while preparing students for competitive exams and higher education.</p>
+     </div>
+         <div class="course-col">
+           <h3>Degree</h3>
+           <p>Our Degree courses provide in-depth knowledge, practical exposure, and career-oriented training in fields like Computer Science, Business Administration, and Arts.</p>
+     </div>
+        <div class="course-col">
+           <h3>Post Graduation</h3>
+           <p>Our Post Graduation programs are designed to develop advanced skills, research abilities, and leadership qualities to help students excel in their professional careers.
+
+</p>
+     </div>
+</div>
+</section>
+<!-----------------facilities----------->
+<section class="facilities">
+   <h1>Our Facilities</h1>
+   <p>We provide world-class infrastructure and facilities to ensure students have a comfortable and enriching campus experience.
+
+<p>
+   <div class="row">
+     <div class="facilities-col">
+        <img src="https://www.nbkrist.org/library/libr1(2).jpg">
+        <h3>World Class Library</h3>
+        <p>Our library is equipped with thousands of books, digital resources, research journals, and peaceful study areas for academic excellence.</p>
+     </div>
+     <div class="facilities-col">
+        <img src="https://cache.careers360.mobi/media/colleges/social-media/media-gallery/2504/2018/7/28/NBKR-Institute-of-Science-and-Technology-VidyanagarPlayground.jpg">
+        <h3>Largest Play Ground</h3>
+        <p>Our spacious playground supports various indoor and outdoor sports activities to encourage physical fitness and teamwork.</p>
+     </div>
+     <div class="facilities-col">
+        <img src="https://assets.kollegeapply.com/images/1751567486328-1547644427phpRSPSLz.jpeg">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Our campus cafeteria provides hygienic, nutritious, and delicious meals to ensure students stay healthy and energetic.</p>
+     </div>
+</section>
+
+
+<!-----------Footer--------------------->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>NBKRIST is committed to providing quality education, innovative learning methods, and career-focused programs to help students achieve their dreams.</p>
+	<div class="icons">
+	    <i class="fa fa-facebook" ></i>
+	    <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made With<i class="fa fa-heart-o"></i>by Easy 
+        tutorials</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------------->
+<script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right= "0";
+     }
+     function hideMenu(){
+         navLinks.style.right= "-200px";
+     }
+</body>
+</html>

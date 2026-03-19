@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>University Website Design - Easy tutorials</title>
+     <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@100;200;300;400;600;700&display=swap"
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs
+	.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""></a>
+           <h2>🎓NBKRIST</h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+	<h1>Our Certification& Online Programs For 2026</h1>
+</section>
+<!-----------blog page content--------------------->
+<section class="blog-content">
+	<div class="row">
+	  <div class="blog-left">
+            <img src="https://img.freepik.com/free-photo/college-graduate-holding-her-certificate_23-2148232756.jpg">
+	    <h2>Our Certification& Online Programs For 2026</h2>
+	    <p>Eduford offers industry-recognized certification and online programs designed to enhance practical skills and career opportunities in 2026. Our courses are flexible, affordable, and accessible from anywhere in the world.</p>
+            <br>
+            <p>Each program is carefully designed by experienced faculty and industry experts to match current market trends and technological advancements.</p>
+            <br>
+            <p>Students will gain hands-on experience through live projects, real-world case studies, and interactive learning sessions.</p>
+            <br>
+            <p>Upon successful completion, students will receive an official certification that strengthens their resume and improves job prospects.</p>
+	  <div class="comment-box">
+	     <h3>Leave a comment</h3>
+ 		<form class="comment-form">
+ 	        <input type="text" placeholder="Enter Name">
+	        <input type="email" placeholder="Enter Email">
+	        <textarea rows="5" placeholder="Your comment">
+	        </textarea>
+	       <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+	        </form>
+	  </div>
+          </div>
+          <div class="blog-right">
+	     <h3>Post Categories</h3>
+          <div>
+             <span>Business Analytics</span>
+             <span>28</span>
+          </div>
+	  <div>
+             <span>Data Science</span>
+             <span>21</span>
+          </div>
+	  <div>
+             <span>Machine Learning</span>
+             <span>15</span>
+          </div>
+	<div>
+             <span>Computer Science</span>
+             <span>34</span>
+          </div>
+	 <div>
+             <span>Commerce</span>
+             <span>30</span>
+          </div>
+      </div>
+ </div>
+</section>
+
+<!-----------Footer--------------------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>NBKRIST is committed to providing quality education, innovative learning methods, and career-focused programs to help students achieve their dreams.</p>
+	<div class="icons">
+	    <i class="fa fa-facebook" ></i>
+	    <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made With<i class="fa fa-heart-o"></i>by Easy 
+        tutorials</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------------->
+<script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right= "0";
+     }
+     function hideMenu(){
+         navLinks.style.right= "-200px";
+     }
+</body>
+</html>

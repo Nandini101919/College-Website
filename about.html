@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>University Website Design - Easy tutorials</title>
+     <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@100;200;300;400;600;700&display=swap"
+	rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs
+	.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""></a>
+           <h2>🎓NBKRIST </h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+	<h1>About Us</h1>
+</section>
+
+<!-----------------about us content------------->
+<section class="about-us">
+      <div class="row">
+	<div class="about-col">
+	   <h1>We are the Number One College</h1>
+	   <p>NBKRIST is committed to delivering quality education with innovation, discipline, and excellence. We focus on academic strength, practical learning, and overall personality development to prepare students for successful careers.</p>
+           <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+	</div>
+	<div class="about-col">
+	  <img src="https://blog.authenticjourneys.info/wp-content/uploads/2016/10/gd-group-discussion-tips.jpg">
+        </div>
+     </div>
+</section>
+<!-----------Footer--------------------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Established with a vision to empower young minds, NBKRIST provides a dynamic learning environment supported by experienced faculty, modern infrastructure, and industry-oriented programs. Our mission is to nurture talent, encourage creativity, and build future leaders.</p>
+	<div class="icons">
+	    <i class="fa fa-facebook" ></i>
+	    <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+	</div>
+	<p>Made With<i class="fa fa-heart-o"></i>by Easy 
+        tutorials</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------------->
+<script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right= "0";
+     }
+     function hideMenu(){
+         navLinks.style.right= "-200px";
+     }
+</body>
+</html>
